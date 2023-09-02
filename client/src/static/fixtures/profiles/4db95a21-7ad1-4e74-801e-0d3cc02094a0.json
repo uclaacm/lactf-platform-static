@@ -1,0 +1,1 @@
+{"kind":"goodUserData","message":"The user data was successfully retrieved.","data":{"name":"0x221b","ctftimeId":null,"division":"open","score":138,"globalPlace":837,"divisionPlace":823,"solves":[{"category":"pwn","name":"gatekeep","points":138,"solves":529,"id":"gatekeep","createdAt":1676136469958}],"bloods":[]}}
