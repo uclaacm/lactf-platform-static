@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "preact build --src client/src --template scraper/out/index.html --dest dist --no-prerender --no-inline-css",
-    "watch": "cross-env NODE_ENV=development preact watch --src client/src --template scraper/out/index.html"
+    "watch": "cross-env NODE_ENV=development preact watch --src client/src --template client/index.html"
   },
   "author": "",
   "license": "BSD-3-Clause",
