@@ -219,7 +219,6 @@ export default withStyles({
   root: {
     marginBottom: '20px',
     background: 'var(--bg-dark)',
-    backdropFilter: 'blur(10px)',
     '& .frame__body': {
       padding: '20px'
     }
