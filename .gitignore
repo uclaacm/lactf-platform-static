@@ -2,4 +2,7 @@
 /scraper/out
 node_modules/
 /dist
-/.yarn
+/.yarn/*
+!/.yarn/releases
+!/.yarn/plugins
+# apparently you're supposed to commit .yarn/cache?
