@@ -2,3 +2,4 @@
 /scraper/out
 node_modules/
 /dist
+/.yarn
