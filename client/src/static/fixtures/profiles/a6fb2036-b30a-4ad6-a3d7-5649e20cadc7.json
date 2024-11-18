@@ -1,0 +1,1 @@
+{"kind":"goodUserData","message":"The user data was successfully retrieved.","data":{"name":"hoge","ctftimeId":null,"division":"open","score":133,"globalPlace":903,"divisionPlace":875,"solves":[{"category":"web","name":"flaglang","points":133,"solves":607,"id":"flaglang","createdAt":1708144245872}],"bloods":[]}}
