@@ -57,7 +57,7 @@ const Problem = ({ classes, problem }) => {
   const onSolvesClose = useCallback(() => setSolves(null), [])
 
   return (
-    <div class={`frame ${classes.frame}`}>
+    <div class={`frame ${classes.frame} ${blood != null ? `${classes.blood} ${classes[`blood${blood}`]}` : ''}`}>
       <div class='frame__body'>
         <div class='row u-no-padding'>
           <div class='col-6 u-no-padding'>
@@ -123,12 +123,23 @@ export default withStyles({
     marginBottom: '1em',
     paddingBottom: '0.625em',
     background: 'var(--bg-dark)',
-    backdropFilter: 'blur(10px)'
+    backdropFilter: 'none'
     /* '& a': {
       color: 'white'
     } */
   },
   // LA CTF: track bloods
+  blood: {
+    '& a': {
+      color: '#fff',
+    },
+    '& .markup a': {
+      textDecoration: 'underline'
+    },
+    '& input': {
+      backgroundColor: 'var(--bg-darker) !important',
+    }
+  },
   blood1: {
     background: 'var(--blood-gold)',
     filter: 'drop-shadow(0px 0px 8px var(--blood-gold-shadow))'
